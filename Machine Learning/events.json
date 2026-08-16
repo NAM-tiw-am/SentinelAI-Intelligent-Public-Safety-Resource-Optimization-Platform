@@ -1,0 +1,110 @@
+[
+  {
+    "zone_id": 0,
+    "date": "2026-07-09",
+    "event_type": "festival",
+    "expected_crowd_size": 9991
+  },
+  {
+    "zone_id": 4,
+    "date": "2026-06-08",
+    "event_type": "festival",
+    "expected_crowd_size": 12950
+  },
+  {
+    "zone_id": 0,
+    "date": "2026-07-02",
+    "event_type": "concert",
+    "expected_crowd_size": 3421
+  },
+  {
+    "zone_id": 0,
+    "date": "2026-06-17",
+    "event_type": "rally",
+    "expected_crowd_size": 14647
+  },
+  {
+    "zone_id": 7,
+    "date": "2026-07-08",
+    "event_type": "rally",
+    "expected_crowd_size": 10904
+  },
+  {
+    "zone_id": 7,
+    "date": "2026-06-16",
+    "event_type": "rally",
+    "expected_crowd_size": 2357
+  },
+  {
+    "zone_id": 8,
+    "date": "2026-06-10",
+    "event_type": "festival",
+    "expected_crowd_size": 7755
+  },
+  {
+    "zone_id": 3,
+    "date": "2026-05-17",
+    "event_type": "festival",
+    "expected_crowd_size": 13939
+  },
+  {
+    "zone_id": 7,
+    "date": "2026-06-27",
+    "event_type": "sports_match",
+    "expected_crowd_size": 6335
+  },
+  {
+    "zone_id": 8,
+    "date": "2026-06-19",
+    "event_type": "festival",
+    "expected_crowd_size": 6929
+  },
+  {
+    "zone_id": 4,
+    "date": "2026-05-21",
+    "event_type": "festival",
+    "expected_crowd_size": 1836
+  },
+  {
+    "zone_id": 5,
+    "date": "2026-07-19",
+    "event_type": "festival",
+    "expected_crowd_size": 1425
+  },
+  {
+    "zone_id": 8,
+    "date": "2026-07-14",
+    "event_type": "rally",
+    "expected_crowd_size": 4513
+  },
+  {
+    "zone_id": 6,
+    "date": "2026-05-15",
+    "event_type": "rally",
+    "expected_crowd_size": 11493
+  },
+  {
+    "zone_id": 7,
+    "date": "2026-06-01",
+    "event_type": "festival",
+    "expected_crowd_size": 1484
+  },
+  {
+    "zone_id": 9,
+    "date": "2026-06-10",
+    "event_type": "rally",
+    "expected_crowd_size": 13451
+  },
+  {
+    "zone_id": 6,
+    "date": "2026-07-10",
+    "event_type": "sports_match",
+    "expected_crowd_size": 11519
+  },
+  {
+    "zone_id": 1,
+    "date": "2026-06-02",
+    "event_type": "rally",
+    "expected_crowd_size": 7267
+  }
+]

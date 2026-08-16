@@ -1,0 +1,62 @@
+[
+  {
+    "id": 0,
+    "name": "Downtown Core",
+    "lat": 34.06,
+    "lng": -118.25
+  },
+  {
+    "id": 1,
+    "name": "Riverside East",
+    "lat": 34.07,
+    "lng": -118.22
+  },
+  {
+    "id": 2,
+    "name": "Westfield Park",
+    "lat": 34.05,
+    "lng": -118.28
+  },
+  {
+    "id": 3,
+    "name": "Old Town South",
+    "lat": 34.04,
+    "lng": -118.25
+  },
+  {
+    "id": 4,
+    "name": "Northgate",
+    "lat": 34.08,
+    "lng": -118.26
+  },
+  {
+    "id": 5,
+    "name": "Lakeshore",
+    "lat": 34.055,
+    "lng": -118.23
+  },
+  {
+    "id": 6,
+    "name": "Industrial Yard",
+    "lat": 34.045,
+    "lng": -118.27
+  },
+  {
+    "id": 7,
+    "name": "University Hill",
+    "lat": 34.075,
+    "lng": -118.24
+  },
+  {
+    "id": 8,
+    "name": "Market Quarter",
+    "lat": 34.065,
+    "lng": -118.265
+  },
+  {
+    "id": 9,
+    "name": "Sunset Strip",
+    "lat": 34.085,
+    "lng": -118.275
+  }
+]

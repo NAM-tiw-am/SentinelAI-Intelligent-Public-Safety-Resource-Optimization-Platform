@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated data (regenerate with generate_data.py + risk_model.py)
+# Uncomment these if you don't want generated files in the repo:
+# Machine Learning/incidents.csv
+# Machine Learning/model.json
+# Machine Learning/zone_base_rate.json
+# Machine Learning/zones.json
+# Machine Learning/events.json
