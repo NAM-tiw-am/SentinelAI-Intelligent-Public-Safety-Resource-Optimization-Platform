@@ -3,6 +3,8 @@ from fastapi.middleware.cors import CORSMiddleware
 from contextlib import asynccontextmanager
 import logging
 
+import app.ml  # ← adds Naman's ML dir to sys.path (must be before ML imports)
+
 from app.config import get_settings
 from app.database import engine, Base
 from app.models import Zone, Unit, Incident, Scenario   # noqa: ensure models registered
@@ -10,6 +12,14 @@ from app.routers import (
     zones_router, units_router, incidents_router,
     predict_router, optimize_router, simulate_router,
 )
+try:
+    from router import router as ml_router  # Naman's ML router
+    _ML_ROUTER_OK = True
+except Exception as _ml_err:
+    ml_router = None
+    _ML_ROUTER_OK = False
+    import logging as _log
+    _log.getLogger(__name__).warning(f"ML router unavailable (OR-Tools DLL): {_ml_err}")
 from app.websocket.manager import ws_manager
 
 logging.basicConfig(level=logging.INFO)
@@ -57,6 +67,10 @@ app.include_router(incidents_router)
 app.include_router(predict_router)
 app.include_router(optimize_router)
 app.include_router(simulate_router)
+
+# ── Naman's ML Router (/ml/zones/{id}/risk, /ml/optimize, /ml/simulate) ──────
+if _ML_ROUTER_OK and ml_router:
+    app.include_router(ml_router, prefix="/ml", tags=["ML Engine (Naman)"])
 
 
 # ── WebSocket endpoint ────────────────────────────────────────────
